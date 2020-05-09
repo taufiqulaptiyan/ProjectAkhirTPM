@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_bottomnav_liga"
+        android:title="Liga"
+        android:icon="@drawable/ic_liga"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_bottomnav_tim"
+        android:title="Tim"
+        android:icon="@drawable/ic_tim"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_bottomnav_jadwal"
+        android:title="Jadwal"
+        android:icon="@drawable/ic_jadwal"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_bottomnav_hasil"
+        android:title="Hasil"
+        android:icon="@drawable/ic_hasil"
+        app:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@drawable/usericon" />
+
+
+        <TextView
+            android:id="@+id/TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dip"
+            android:text="Selamat Datang"
+            android:textSize="25dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000000"
+            />
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:hint="Username"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textSize="20dp"
+            />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:hint="Password"
+            android:password="true"
+            android:singleLine="true"
+            android:textSize="20dp"/>
+
+        <CheckBox
+            android:id="@+id/showPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lihat Password"
+            android:textSize="16dp"/>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:text="Login"
+            android:background="#448AFF"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dip"
+            android:text="Belum Punya Akun ? Klik Tombol Register"
+            android:textSize="16dp"
+            android:layout_marginBottom="15dp"
+            />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:background="#fff"
+            android:text="Register"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>
